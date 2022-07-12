@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 import Footer  from "./components/Footer";
-import  Routes  from "./components/Routes";
+import  MyRoutes  from "./components/MyRoutes";
 import  Navbar  from "./components/Navbar";
 
 
@@ -13,7 +13,7 @@ const App = () => {
     <div className={darkTheme ? 'dark' : ''} >
       <div className='dark:bg-gray-900 bg-gray-100 dark:text-gray-200 black min-h-screen'>
         <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
-        <Routes />
+        <MyRoutes />
         <Footer />
       </div>
     </div>
